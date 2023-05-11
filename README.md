@@ -1,21 +1,16 @@
 [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Progressive Web Applications (PWA) Text Editor
+# PWA Text Editor - JATE (Just Another Text Editor)
 
 ## Description
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? 
-- What problem does it solve?
-- What did you learn?
+This application takes an existing text editor app and adds functionality for it to work as a PWA - Progressive Web Application - and function offline. It allows the page to be downloaded as a desktop application for it to be used in offline mode. 
 
 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Deployment](#deployment)
-- [Features](#features)
+- [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [License](#license)
 - [Tests](#tests)
@@ -25,27 +20,25 @@ Provide a short description explaining the what, why, and how of your project. U
 
 
 ## Installation
-No installation required -- this is a web-based application
+To install, clone the repo down to your local machine. Next, in the CLI at the relative directory, run 'npm i' to install all necessary dependancies to ensure you can successfully run the application.  
+To use the package, run 'npm start' which will use webpack to build the distribution folder and start the server.
 
 
 ## Usage (Instructions/How-To Use)
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+Open up the link in your browser and click 'install' in order to download the app to your desktop and use it offline; or simply use it in the browser.
 
 
 ## Deployment
-Live URL: <a href="deployed link">Deployment Link</a>
-<!-- in the parentheses is just the relative path to the screenshot-->
-![alt text](assets/images/screenshot.png)
+Live URL: <a href="https://just-another-pwa-jate.herokuapp.com/">J.A.T.E.</a>
 
 
-## Features
-If your project has a lot of features, list them here.
+## Screenshots
+![Screenshot Website](/assets/ScreenshotDesktop.png)
+![Screenshot App](/assets/ScreenshotApp.png)
 
 
 ## Technologies
-JavaScript, HTML, CSS, Node.js, Express.js, MySQL, Java, C, C#, C++, Python, Other, N/A
+PWA, JS, Node.js, Express.js, Webpack, IDB, Babel
 
 
 ## License
@@ -63,22 +56,16 @@ Preview:
 
 
 ## Tests
-Endpoints were tested with Insomnia, If you should find any issues, see above on contibuting guidlines, or submit a issue with a detailed explanation on how to recreate the bug.
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Tests on the application have been completed with Lighthouse -- an applications tab in Chrome Dev Tools -- to ensure all items store properly and cache is accepted.
 
 
 ## Credits
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+<li><strong><a href="https://github.com/alc0ve" target="_blank">Christina Hall</a>:</strong> Full-Stack Developer</li> 
+<li><strong><a href="https://github.com/tlequernaque" target="_blank">Terry Lequernaque</a>:</strong> Full-Stack Developer</li>  
 
 
 ## How to Contribute
 Fork the repo and clone down to your local machine. Once you have the latest version of the repo, you can add or make changes then submit a pull request for your changes. Please use best practices as well as proper naming conventions and comments depicting what the code segements function is. Finally in the body of your pull request, please explain why these changes you were necissary and if it is a bug what steps can be completed to reproduce this bug. If these guidelines are not met, pull requests will not be reviewed or accepted.
-
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
 
 ## Contact / Questions
@@ -89,4 +76,4 @@ For any questions or inquiries, you can reach me at blair10324@gmail.com for fur
 <li><strong><a href="https://github.com/blairrrrwho" target="_blank">Blair Millet</a>:</strong> Full-Stack Developer</li>  
 
 - - - - 
-© 2023 Another Bad Music Review, Inc. All Rights Reserved.
+© 2023 J.A.T.E., Inc. All Rights Reserved.
