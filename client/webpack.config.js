@@ -11,8 +11,8 @@ module.exports = () => {
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
-      editor: './src/js/editor.js',
-      header: './src/js/header.js' 
+      // editor: './src/js/editor.js',
+      // header: './src/js/header.js' 
     },
     output: {
       filename: '[name].bundle.js',
@@ -23,7 +23,7 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: "./index.html",
         // application name
-        title: "J.A.T.E.",
+        title: "JATE",
       }),
 
       // injects our custom service worker
@@ -37,7 +37,7 @@ module.exports = () => {
         fingerprints: false,
         inject: true,
         name: "Just Another Text Editor",
-        short_name: "J.A.T.E.",
+        short_name: "JATE",
         description: "Add and Edit your Text!",
         background_color: "#225ca3",
         theme_color: "#225ca3",
