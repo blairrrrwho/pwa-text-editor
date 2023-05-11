@@ -42,8 +42,6 @@ PWA, JS, Node.js, Express.js, Webpack, IDB, Babel
 
 
 ## License
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
 This project is licensed under the MIT license. For more information about this license and what it entails, visit the MIT website <a href="https://opensource.org/licenses/MIT">here</a>
 
 Preview:
