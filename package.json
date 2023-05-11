@@ -1,7 +1,7 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
   "main": "server.js",
   "scripts": {
     "start:dev": "",
@@ -9,10 +9,11 @@
     "server": "",
     "build": "",
     "install": "",
-    "client": ""
+    "client": "",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "blairrrrwho",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
@@ -20,6 +21,14 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
-  }
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blairrrrwho/pwa-text-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blairrrrwho/pwa-text-editor/issues"
+  },
+  "homepage": "https://github.com/blairrrrwho/pwa-text-editor#readme"
 }
