@@ -15,6 +15,7 @@ butInstall.addEventListener("click", async () => {
     const promptEvent = window.deferredPrompt;
 
     if (!promptEvent) {
+        console.log('no promptEvent');
         return;
     }
 

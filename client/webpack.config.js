@@ -1,18 +1,16 @@
 // TODO: Add and configure workbox plugins for a service worker and manifest file.
 // TODO: Add CSS loaders and babel to webpack.
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const WebpackPwaManifest = require("webpack-pwa-manifest");
-const path = require("path");
-const { InjectManifest } = require("workbox-webpack-plugin");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const WebpackPwaManifest = require('webpack-pwa-manifest');
+const path = require('path');
+const { InjectManifest } = require('workbox-webpack-plugin');
 
 module.exports = () => {
   return {
     mode: 'development',
     entry: {
       main: './src/js/index.js',
-      install: './src/js/install.js',
-      // editor: './src/js/editor.js',
-      // header: './src/js/header.js' 
+      install: './src/js/install.js', 
     },
     output: {
       filename: '[name].bundle.js',
@@ -21,33 +19,33 @@ module.exports = () => {
     plugins: [
       // webpack plugin that generates our html file and injects our bundles
       new HtmlWebpackPlugin({
-        template: "./index.html",
+        template: './index.html',
         // application name
-        title: "JATE",
+        title: 'JATE',
       }),
 
       // injects our custom service worker
       new InjectManifest({
-        swSrc: "./src-sw.js",
-        swDest: "src-sw.js",
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js',
       }),
 
       // creates a manifest.json file
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: "Just Another Text Editor",
-        short_name: "JATE",
-        description: "Add and Edit your Text!",
-        background_color: "#225ca3",
-        theme_color: "#225ca3",
-        start_url: "./",
-        publicPath: "./",
+        name: 'Just Another Text Editor',
+        short_name: 'JATE',
+        description: 'Add and Edit your Text!',
+        background_color: '#225ca3',
+        theme_color: '#225ca3',
+        start_url: './',
+        publicPath: './',
         icons: [
           {
-            src: path.resolve("src/images/logo.png"),
+            src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
-            destination: path.join("assets", "icons"),
+            destination: path.join('assets', 'icons'),
           },
         ],
       }),
