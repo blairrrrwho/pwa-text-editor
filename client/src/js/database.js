@@ -38,7 +38,7 @@ export const getDb = async () => {
   result
     ? console.log("🚀 - data retrieved from the database", result.value)
     : console.log("🚀 - data not found in the database");
-  // If a variable is defined, return it. 
+  // if a variable is defined, return it. 
   return result?.value;
 }
 

@@ -1,5 +1,3 @@
-// TODO: Add and configure workbox plugins for a service worker and manifest file.
-// TODO: Add CSS loaders and babel to webpack.
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const path = require('path');
@@ -51,7 +49,6 @@ module.exports = () => {
       }),
     ],
 
-    // TODO: Add the correct modules
     module: {
       // CSS loaders
       rules: [
